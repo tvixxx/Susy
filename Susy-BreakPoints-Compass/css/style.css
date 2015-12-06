@@ -1,0 +1,178 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #fbeecb;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  *zoom: 1;
+  max-width: 1140px;
+}
+.container:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+.container div[class^="column"] {
+  margin-top: .5em;
+}
+.container .column_1, .container .column_3 {
+  background-color: #71dad2;
+}
+@media (min-width: 900px) {
+  .container .column_1, .container .column_3 {
+    width: 18.36735%;
+    float: left;
+    margin-right: 2.04082%;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+  }
+}
+@media (min-width: 900px) {
+  .container .column_3 {
+    float: right;
+    margin-right: 0;
+  }
+}
+.container .column_2 {
+  background-color: #fae7b3;
+}
+@media (min-width: 900px) {
+  .container .column_2 {
+    width: 59.18367%;
+    float: left;
+    margin-right: 2.04082%;
+    overflow: hidden;
+    *zoom: 1;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+  }
+  .container .column_2 .column_2_1_1, .container .column_2 .column_2_1_2 {
+    background-color: #ee9e9c;
+    width: 48.27586%;
+    float: left;
+    margin-right: 3.44828%;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+  }
+  .container .column_2 .column_2_1_2 {
+    float: right;
+    margin-right: 0;
+  }
+  .container .column_2 .column_2_2_1 {
+    background-color: #f09671;
+    width: 31.03448%;
+    float: left;
+    margin-right: 3.44828%;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+  }
+  .container .column_2 .column_2_2_2 {
+    background-color: #f6d784;
+    width: 65.51724%;
+    float: right;
+    margin-right: 0;
+    overflow: hidden;
+    *zoom: 1;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+  }
+  .container .column_2 .column_2_2_2 .column_2_3_1, .container .column_2 .column_2_2_2 .column_2_3_2 {
+    background-color: #ee9e9c;
+    width: 47.36842%;
+    float: left;
+    margin-right: 5.26316%;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+  }
+  .container .column_2 .column_2_2_2 .column_2_3_2 {
+    float: right;
+    margin-right: 0;
+  }
+  .container .column_2 .column_2_2_2 .column_2_4 {
+    background-color: #ea9fc3;
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    clear: both;
+  }
+}
+.container h1, .container h2 {
+  text-align: center;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 1.8em 0;
+}
+.container .column_1, .container .column_3 {
+  background-color: #71dad2;
+}
+@media (min-width: 600px) {
+  .container .column_1, .container .column_3 {
+    width: 31.03448%;
+    float: right;
+    margin-right: 0;
+  }
+}
+.container .column_2 {
+  background-color: #fae7b3;
+}
+@media (min-width: 600px) {
+  .container .column_2 {
+    width: 65.51724%;
+    float: left;
+    margin-right: 3.44828%;
+    overflow: hidden;
+    *zoom: 1;
+  }
+  .container .column_2 .column_2_1_1, .container .column_2 .column_2_1_2 {
+    background-color: #ee9e9c;
+    width: 48.27586%;
+    float: left;
+    margin-right: 3.44828%;
+  }
+  .container .column_2 .column_2_1_2 {
+    float: right;
+    margin-right: 0;
+  }
+  .container .column_2 .column_2_2_1, .container .column_2 .column_2_2_2, .container .column_2 .column_2_4 {
+    background-color: #f09671;
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .container .column_2 .column_2_2_2 {
+    background-color: #f6d784;
+    overflow: hidden;
+    *zoom: 1;
+  }
+  .container .column_2 .column_2_2_2 .column_2_3_1, .container .column_2 .column_2_2_2 .column_2_3_2 {
+    background-color: #ee9e9c;
+    width: 47.36842%;
+    float: left;
+    margin-right: 5.26316%;
+  }
+  .container .column_2 .column_2_2_2 .column_2_3_2 {
+    float: right;
+    margin-right: 0;
+  }
+  .container .column_2 .column_2_2_2 .column_2_4 {
+    background-color: #ea9fc3;
+    clear: both;
+  }
+}
